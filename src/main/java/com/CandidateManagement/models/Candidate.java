@@ -8,7 +8,7 @@ public class Candidate implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private Long id;
+	private int id;
 	private String name;
 	private String email;
 	private String jobTitle;
@@ -23,13 +23,13 @@ public class Candidate implements Serializable{
 
 	
 	
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
 
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -131,9 +131,8 @@ public class Candidate implements Serializable{
 
 
 
-	public Candidate(Long id, String name, String email, String jobTitle, String phone, String imageUrl,
+	public Candidate(String name, String email, String jobTitle, String phone, String imageUrl,
 			String joiningDate, String collegeName, String joiningJocation) {
-		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.jobTitle = jobTitle;
