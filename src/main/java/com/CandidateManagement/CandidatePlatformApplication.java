@@ -27,14 +27,14 @@ public class CandidatePlatformApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CandidatePlatformApplication.class, args);
 		
-		System.out.println("\nAdd Candidates -------------------------------------\n");
-		Candidate accCandidate= new Candidate("Harshil Jangid", "harshlynn990@gmail.com", "FTE", "8764316882", "URL....", "3 june 2021", "NIT J", "Bangalore");
-		dao.create(accCandidate);
-		
-		accCandidate.setJobTitle("hasdh");
-		dao.update(accCandidate, 9);
+//		System.out.println("\nAdd Candidates -------------------------------------\n");
+//		Candidate accCandidate= new Candidate("Harshil Jangid", "harshlynn990@gmail.com", "FTE", "8764316882", "URL....", "3 june 2021", "NIT J", "Bangalore");
+//		dao.create(accCandidate);
 //		
-		dao.delete(6);
+//		accCandidate.setJobTitle("hasdh");
+//		dao.update(accCandidate, 9);
+////		
+//		dao.delete(6);
 //		
 		System.out.println("\nAll Candidates -------------------------------------\n");
 		List<Candidate> candidates = dao.getCandidates();

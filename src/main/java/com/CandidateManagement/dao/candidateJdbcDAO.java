@@ -29,20 +29,25 @@ public class candidateJdbcDAO implements DAO<Candidate>{
 	}
 
 	@Override
-	public void create(Candidate candidate) {
+	public Candidate create(Candidate candidate) {
 		String sql  = "INSERT into candidate(id,name,email,jobTitle,phone,imageUrl,joiningDate,collegeName,joiningLocation) VALUES (?,?,?,?,?,?,?,?,?);";
         int index = jdbcTemplate.update(sql, new Object[] {candidate.getId(),candidate.getName(),candidate.getEmail(),candidate.getJobTitle(),candidate.getPhone(),candidate.getImageUrl(),candidate.getJoiningDate(),candidate.getCollegeName(),candidate.getJoiningJocation()});
+        String sql1="SELECT * FROM candidate;";
+        List<Candidate> candidates=jdbcTemplate.query(sql1,new candidateRowMapper());
+        candidate.setId(candidates.get(candidates.size() - 1).getId());
+        return candidate;
  
 
 	}
 
 	@Override
-	public void update(Candidate candidate, int id) {
+	public int updateCandidate(Candidate candidate, int id) {
 		String sql = "UPDATE candidate set name=?,email=?,jobTitle=?,phone=?,imageUrl=?,joiningDate=?,collegeName=?,joiningLocation=? where id=?";
 		int index=jdbcTemplate.update(sql,new Object[] {candidate.getName(),candidate.getEmail(),candidate.getJobTitle(),candidate.getPhone(),candidate.getImageUrl(),candidate.getJoiningDate(),candidate.getCollegeName(),candidate.getJoiningJocation(),id});
 		if(index==1) {
 			log.info("Course Updated");
 		}
+		return index;
 	}
 
 	@Override

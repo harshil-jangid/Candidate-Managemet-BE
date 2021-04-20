@@ -8,9 +8,9 @@ public interface DAO<Candidate> {
 	
 	List<Candidate> getCandidates();
 	
-	void create(Candidate candidate);
+	Candidate create(Candidate candidate);
 		
-	void update(Candidate candidate, int id);
+	int updateCandidate(Candidate candidate, int id);
 	
 	void delete(int id);
 }
