@@ -20,7 +20,10 @@ public class candidateRowMapper implements RowMapper<Candidate>{
 		candidate.setImageUrl(rs.getString("imageUrl"));
 		candidate.setJoiningDate(rs.getString("joiningDate"));
 		candidate.setCollegeName(rs.getString("collegeName"));
-		candidate.setJoiningJocation(rs.getString("joiningLocation"));
+		candidate.setJoiningLocation(rs.getString("joiningLocation"));
+		candidate.setSkill(rs.getString("skill"));
+		candidate.setDescription(rs.getString("description"));
+
 		return candidate;
  	}
 

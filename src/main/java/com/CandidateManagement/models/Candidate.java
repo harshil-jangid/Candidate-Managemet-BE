@@ -16,7 +16,10 @@ public class Candidate implements Serializable{
 	private String imageUrl;
 	private String joiningDate;
 	private String collegeName;
-	private String joiningJocation;
+	private String joiningLocation;
+	private String skill;
+	private String description;
+
 	
 
 	public Candidate() {}
@@ -119,20 +122,45 @@ public class Candidate implements Serializable{
 
 
 
-	public String getJoiningJocation() {
-		return joiningJocation;
+	public String getJoiningLocation() {
+		return joiningLocation;
 	}
 
 
 
-	public void setJoiningJocation(String joiningJocation) {
-		this.joiningJocation = joiningJocation;
+	public void setJoiningLocation(String joiningLocation) {
+		this.joiningLocation = joiningLocation;
+	}
+
+
+	public String getSkill() {
+		return skill;
 	}
 
 
 
-	public Candidate(String name, String email, String jobTitle, String phone, String imageUrl,
-			String joiningDate, String collegeName, String joiningJocation) {
+	public void setSkill(String skill) {
+		this.skill = skill;
+	}
+
+
+
+	public String getDescription() {
+		return description;
+	}
+
+
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+
+
+	public Candidate(int id, String name, String email, String jobTitle, String phone, String imageUrl,
+			String joiningDate, String collegeName, String joiningLocation, String skill, String description) {
+		super();
+		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.jobTitle = jobTitle;
@@ -140,7 +168,9 @@ public class Candidate implements Serializable{
 		this.imageUrl = imageUrl;
 		this.joiningDate = joiningDate;
 		this.collegeName = collegeName;
-		this.joiningJocation = joiningJocation;
+		this.joiningLocation = joiningLocation;
+		this.skill = skill;
+		this.description = description;
 	}
 
 
@@ -149,8 +179,12 @@ public class Candidate implements Serializable{
 	public String toString() {
 		return "Candidate [id=" + id + ", name=" + name + ", email=" + email + ", jobTitle=" + jobTitle + ", phone="
 				+ phone + ", imageUrl=" + imageUrl + ", joiningDate=" + joiningDate + ", collegeName=" + collegeName
-				+ ", joiningJocation=" + joiningJocation + "]";
+				+ ", joiningLocation=" + joiningLocation + ", skill=" + skill + ", description=" + description + "]";
 	}
+
+
+
+	
 
 	
 }
