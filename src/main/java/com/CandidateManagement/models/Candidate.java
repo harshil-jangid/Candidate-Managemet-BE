@@ -19,6 +19,8 @@ public class Candidate implements Serializable{
 	private String joiningLocation;
 	private String skill;
 	private String description;
+	private String createdBy;
+	private String lastUpdatedBy;
 
 	
 
@@ -157,8 +159,33 @@ public class Candidate implements Serializable{
 
 
 
+	public String getCreatedBy() {
+		return createdBy;
+	}
+
+
+
+	public void setCreatedBy(String createdBy) {
+		this.createdBy = createdBy;
+	}
+
+
+
+	public String getLastUpdatedBy() {
+		return lastUpdatedBy;
+	}
+
+
+
+	public void setLastUpdatedBy(String lastUpdatedBy) {
+		this.lastUpdatedBy= lastUpdatedBy;
+	}
+
+
+
 	public Candidate(int id, String name, String email, String jobTitle, String phone, String imageUrl,
-			String joiningDate, String collegeName, String joiningLocation, String skill, String description) {
+			String joiningDate, String collegeName, String joiningLocation, String skill, String description,
+			String createdBy, String lastUpdatedBy) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -171,6 +198,8 @@ public class Candidate implements Serializable{
 		this.joiningLocation = joiningLocation;
 		this.skill = skill;
 		this.description = description;
+		this.createdBy = createdBy;
+		this.lastUpdatedBy = lastUpdatedBy;
 	}
 
 
@@ -179,8 +208,15 @@ public class Candidate implements Serializable{
 	public String toString() {
 		return "Candidate [id=" + id + ", name=" + name + ", email=" + email + ", jobTitle=" + jobTitle + ", phone="
 				+ phone + ", imageUrl=" + imageUrl + ", joiningDate=" + joiningDate + ", collegeName=" + collegeName
-				+ ", joiningLocation=" + joiningLocation + ", skill=" + skill + ", description=" + description + "]";
+				+ ", joiningLocation=" + joiningLocation + ", skill=" + skill + ", description=" + description
+				+ ", createdBy=" + createdBy + ", lastUpdatedBy=" + lastUpdatedBy + "]";
 	}
+
+
+
+
+
+	
 
 
 

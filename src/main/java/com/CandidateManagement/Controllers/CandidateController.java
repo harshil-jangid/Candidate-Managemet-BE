@@ -46,10 +46,10 @@ public class CandidateController {
         return new ResponseEntity<>(HttpStatus.BAD_REQUEST);        
     }
     
-    @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> deleteCandidate(@PathVariable(value="id") int id) {
+    @DeleteMapping("/delete/{id}/{deletedById}")
+    public ResponseEntity<?> deleteCandidate(@PathVariable(value="id") int id, @PathVariable(value="deletedById") String deletedById) {
     	System.out.println("in delete controller");
-        dao.delete(id);
+        dao.delete(id,deletedById);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }

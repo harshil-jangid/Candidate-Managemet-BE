@@ -23,6 +23,8 @@ public class candidateRowMapper implements RowMapper<Candidate>{
 		candidate.setJoiningLocation(rs.getString("joiningLocation"));
 		candidate.setSkill(rs.getString("skill"));
 		candidate.setDescription(rs.getString("description"));
+		candidate.setCreatedBy(rs.getString("createdBy"));
+		candidate.setLastUpdatedBy(rs.getString("lastUpdatedBy"));
 
 		return candidate;
  	}
