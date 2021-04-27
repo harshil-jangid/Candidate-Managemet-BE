@@ -10,6 +10,9 @@ import com.CandidateManagement.RowMapper.candidateRowMapper;
 import com.CandidateManagement.models.Candidate;
 import com.CandidateManagement.models.Logs;
 
+import java.io.IOException;
+import org.codehaus.jackson.map.ObjectMapper;
+
 @Component
 public class candidateJdbcDAO implements DAO<Candidate>{
 
@@ -42,14 +45,14 @@ public class candidateJdbcDAO implements DAO<Candidate>{
         List<Candidate> candidates=jdbcTemplate.query(sql1,new candidateRowMapper());
         candidate.setId(candidates.get(candidates.size() - 1).getId());
 
-//        Candidate oldCandidate= new Candidate();
-//        Logs newLog = new Logs();
-//        newLog.setEmail(candidates.get(candidates.size() - 1).getCreatedBy());
-//        newLog.setOldValue(oldCandidate.toString());
-//        newLog.setNewValue(candidate.toString());
-//        newLog.setAction("Added new Candidate");
-//        newLog.setId((int)candidate.getId());
-//        dao.addLog(newLog);
+        Candidate oldCandidate= new Candidate();
+        Logs newLog = new Logs();
+        newLog.setEmail(candidates.get(candidates.size() - 1).getCreatedBy());
+        newLog.setOldValue(oldCandidate.toString());
+        newLog.setNewValue(candidate.toString());
+        newLog.setAction("Added new Candidate");
+        newLog.setId((int)candidate.getId());
+        dao.addLog(newLog);
         return candidate;
  
 
@@ -71,10 +74,29 @@ public class candidateJdbcDAO implements DAO<Candidate>{
 		if(index==1) {
 			log.info("Course Updated");
 		}
+		String newValue="";
+		String oldValue="";
+		ObjectMapper Obj = new ObjectMapper();
+		
+		try {
+            String jsonStr  = Obj.writeValueAsString(candidate);
+            System.out.println(jsonStr );
+            newValue=jsonStr;
+            jsonStr  = Obj.writeValueAsString(old);
+            oldValue=jsonStr;
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+		
+		
+		
+		
+		
 		Logs newLog = new Logs();
         newLog.setCandidateId(id);
-        newLog.setNewValue(candidate.toString());
-        newLog.setOldValue(old.toString());
+        newLog.setNewValue(newValue);
+        newLog.setOldValue(oldValue);
         newLog.setAction("Updated this Candidate");
         newLog.setEmail(candidate.getLastUpdatedBy());	        
         dao.addLog(newLog);
