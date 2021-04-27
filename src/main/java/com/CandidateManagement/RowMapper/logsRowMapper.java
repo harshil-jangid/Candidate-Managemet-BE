@@ -18,6 +18,8 @@ public class logsRowMapper implements RowMapper<Logs> {
 	 	log.setEmail(rs.getString("email"));
 	 	log.setCandidateId(rs.getInt("candidateId"));
 	 	log.setTimeStamp(rs.getString("timeStamp"));
+	 	log.setOldValue(rs.getString("oldValue"));
+	 	log.setNewValue(rs.getString("newValue"));
 
 		return log;
 	}

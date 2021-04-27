@@ -33,8 +33,8 @@ public class logsJdbcDAO implements DAOLogs {
         System.out.println("date is"+formatter.format(date));
         
         log.setTimeStamp(formatter.format(date));
-        String sql = "INSERT into logs(action,email,candidateId,timeStamp) VALUES (?,?,?,?)";
-        int index = jdbcTemplate.update(sql, new Object[]{log.getAction(), log.getEmail(), log.getCandidateId(), log.getTimeStamp()});
+        String sql = "INSERT into logs(action,email,candidateId,timeStamp,oldValue,newValue) VALUES (?,?,?,?,?,?)";
+        int index = jdbcTemplate.update(sql, new Object[]{log.getAction(), log.getEmail(), log.getCandidateId(), log.getTimeStamp(), log.getOldValue(), log.getNewValue()});
         
         String sql1="SELECT * FROM logs;";
         List<Logs> logs=jdbcTemplate.query(sql1,new logsRowMapper());

@@ -10,7 +10,8 @@ public class Logs implements Serializable {
 	private String email;
 	private int candidateId;
 	private String timeStamp;
-	
+	private String oldValue;
+	private String newValue;
 	
 	public Logs() {
 	}
@@ -66,20 +67,47 @@ public class Logs implements Serializable {
 	}
 
 
-	public Logs(int id, String action, String email, int candidateId, String timeStamp) {
+	public String getOldValue() {
+		return oldValue;
+	}
+
+
+	public void setOldValue(String oldValue) {
+		this.oldValue = oldValue;
+	}
+
+
+	public String getNewValue() {
+		return newValue;
+	}
+
+
+	public void setNewValue(String newValue) {
+		this.newValue = newValue;
+	}
+
+
+	public Logs(int id, String action, String email, int candidateId, String timeStamp, String oldValue,
+			String newValue) {
+		super();
 		this.id = id;
 		this.action = action;
 		this.email = email;
 		this.candidateId = candidateId;
 		this.timeStamp = timeStamp;
+		this.oldValue = oldValue;
+		this.newValue = newValue;
 	}
 
 
 	@Override
 	public String toString() {
 		return "Logs [id=" + id + ", action=" + action + ", email=" + email + ", candidateId=" + candidateId
-				+ ", timeStamp=" + timeStamp + "]";
+				+ ", timeStamp=" + timeStamp + ", oldValue=" + oldValue + ", newValue=" + newValue + "]";
 	}
+
+
+
 	
 	
 	
