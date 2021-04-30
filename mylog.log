@@ -1,0 +1,532 @@
+2021-04-30 01:37:53.601  INFO 20468 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 20468 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 01:37:53.611  INFO 20468 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 01:37:53.739  INFO 20468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 01:37:53.740  INFO 20468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 01:37:54.650  INFO 20468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 01:37:54.677  INFO 20468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2021-04-30 01:37:57.299  INFO 20468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 01:37:57.312  INFO 20468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 01:37:57.314  INFO 20468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 01:37:57.411  INFO 20468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 01:37:57.411  INFO 20468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3669 ms
+2021-04-30 01:37:57.913  INFO 20468 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 01:37:58.202  INFO 20468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 01:38:00.071  INFO 20468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 01:38:00.345  INFO 20468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 01:38:00.550  INFO 20468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 01:38:00.566  INFO 20468 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 8.123 seconds (JVM running for 8.975)
+2021-04-30 01:38:00.578  INFO 20468 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 01:38:36.745  INFO 19988 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 19988 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 01:38:36.750  INFO 19988 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 01:38:36.864  INFO 19988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 01:38:36.865  INFO 19988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 01:38:38.188  INFO 19988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 01:38:38.234  INFO 19988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
+2021-04-30 01:38:39.953  INFO 19988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 01:38:39.991  INFO 19988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 01:38:39.992  INFO 19988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 01:38:40.163  INFO 19988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 01:38:40.165  INFO 19988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3299 ms
+2021-04-30 01:38:41.001  INFO 19988 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 01:38:41.287  INFO 19988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 01:38:42.245  INFO 19988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 01:38:42.393  INFO 19988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 01:38:42.471  INFO 19988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 01:38:42.487  INFO 19988 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 6.274 seconds (JVM running for 6.898)
+2021-04-30 01:38:42.492  INFO 19988 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 01:40:23.819  INFO 772 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 772 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 01:40:23.824  INFO 772 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 01:40:23.897  INFO 772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 01:40:23.898  INFO 772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 01:40:24.718  INFO 772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 01:40:24.740  INFO 772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-04-30 01:40:25.729  INFO 772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 01:40:25.770  INFO 772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 01:40:25.771  INFO 772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 01:40:25.955  INFO 772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 01:40:25.956  INFO 772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2057 ms
+2021-04-30 01:40:26.941  INFO 772 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 01:40:27.490  INFO 772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 01:40:28.947  INFO 772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 01:40:29.058  INFO 772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 01:40:29.102  INFO 772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 01:40:29.115  INFO 772 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 5.83 seconds (JVM running for 6.333)
+2021-04-30 01:40:29.121  INFO 772 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:22:04.776  INFO 19528 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 19528 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:22:04.796  INFO 19528 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:22:05.026  INFO 19528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:22:05.027  INFO 19528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:22:05.769  INFO 19528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:22:05.789  INFO 19528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:22:12.165  INFO 19528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:22:12.181  INFO 19528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:22:12.182  INFO 19528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:22:21.839  INFO 19528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:22:21.840  INFO 19528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16812 ms
+2021-04-30 02:22:22.337  INFO 19528 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:22:22.634  INFO 19528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:22:23.549  INFO 19528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:22:23.691  INFO 19528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:22:23.803  INFO 19528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:22:23.821  INFO 19528 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 19.942 seconds (JVM running for 20.711)
+2021-04-30 02:22:23.826  INFO 19528 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:23:12.570  INFO 19528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:23:12.571  INFO 19528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:23:12.572  INFO 19528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 02:23:13.132  INFO 19528 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 02:23:21.136 ERROR 19528 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.node.ArrayNode.add(com.fasterxml.jackson.databind.JsonNode)" because "innerList" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.node.ArrayNode.add(com.fasterxml.jackson.databind.JsonNode)" because "innerList" is null
+	at com.CandidateManagement.dao.trendsJdbcDAO$1.processRow(trendsJdbcDAO.java:60) ~[classes/:na]
+	at org.springframework.jdbc.core.JdbcTemplate$RowCallbackHandlerResultSetExtractor.extractData(JdbcTemplate.java:1696) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:453) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:381) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:470) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at com.CandidateManagement.dao.trendsJdbcDAO.getCountLocation(trendsJdbcDAO.java:36) ~[classes/:na]
+	at com.CandidateManagement.Controllers.TrendsController.getAlllocation(TrendsController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-04-30 02:28:42.453  INFO 11024 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 11024 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:28:42.455  INFO 11024 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:28:42.545  INFO 11024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:28:42.546  INFO 11024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:28:43.386  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:28:43.409  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:28:45.425  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:28:45.453  INFO 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:28:45.455  INFO 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:28:45.658  INFO 11024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:28:45.659  INFO 11024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3112 ms
+2021-04-30 02:28:46.585  INFO 11024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:28:47.086  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:28:47.830  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:28:47.938  INFO 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:28:47.992  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:28:48.006  INFO 11024 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 6.103 seconds (JVM running for 6.755)
+2021-04-30 02:28:48.015  INFO 11024 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:29:14.855  INFO 11024 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:29:14.856  INFO 11024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:29:14.857  INFO 11024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 02:29:14.919  INFO 11024 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 02:30:32.830  INFO 7228 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 7228 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:30:32.834  INFO 7228 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:30:32.940  INFO 7228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:30:32.941  INFO 7228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:30:34.459  INFO 7228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:30:34.512  INFO 7228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:30:36.341  INFO 7228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:30:36.373  INFO 7228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:30:36.374  INFO 7228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:30:36.579  INFO 7228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:30:36.580  INFO 7228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3638 ms
+2021-04-30 02:30:37.395  INFO 7228 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:30:37.810  INFO 7228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:30:38.531  INFO 7228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:30:38.744  INFO 7228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:30:38.825  INFO 7228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:30:38.856  INFO 7228 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 6.606 seconds (JVM running for 7.201)
+2021-04-30 02:30:38.863  INFO 7228 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:30:43.743  INFO 7228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:30:43.743  INFO 7228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:30:43.744  INFO 7228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-30 02:30:43.809  INFO 7228 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 02:31:31.248  INFO 13592 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 13592 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:31:31.256  INFO 13592 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:31:31.425  INFO 13592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:31:31.427  INFO 13592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:31:33.307  INFO 13592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:31:33.359  INFO 13592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:31:34.851  INFO 13592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:31:34.869  INFO 13592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:31:34.870  INFO 13592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:31:34.966  INFO 13592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:31:34.967  INFO 13592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3537 ms
+2021-04-30 02:31:35.588  INFO 13592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:31:35.938  INFO 13592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:31:36.526  INFO 13592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:31:36.664  INFO 13592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:31:36.735  INFO 13592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:31:36.751  INFO 13592 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 6.327 seconds (JVM running for 6.891)
+2021-04-30 02:31:36.756  INFO 13592 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:31:40.745  INFO 13592 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:31:40.746  INFO 13592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:31:40.747  INFO 13592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 02:32:51.636  INFO 14556 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 14556 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:32:51.644  INFO 14556 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:32:51.807  INFO 14556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:32:51.808  INFO 14556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:32:53.735  INFO 14556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:32:53.786  INFO 14556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:32:55.322  INFO 14556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:32:55.342  INFO 14556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:32:55.343  INFO 14556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:32:55.440  INFO 14556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:32:55.440  INFO 14556 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3630 ms
+2021-04-30 02:32:55.988  INFO 14556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:32:56.322  INFO 14556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:32:56.876  INFO 14556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:32:57.013  INFO 14556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:32:57.098  INFO 14556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:32:57.169  INFO 14556 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 6.442 seconds (JVM running for 7.09)
+2021-04-30 02:32:57.184  INFO 14556 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:33:01.260  INFO 14556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:33:01.261  INFO 14556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:33:01.262  INFO 14556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 02:33:31.316  INFO 5348 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 5348 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:33:31.325  INFO 5348 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:33:31.568  INFO 5348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:33:31.570  INFO 5348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:33:33.407  INFO 5348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:33:33.464  INFO 5348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:33:34.542  INFO 5348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:33:34.564  INFO 5348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:33:34.564  INFO 5348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:33:34.657  INFO 5348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:33:34.658  INFO 5348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3086 ms
+2021-04-30 02:33:35.170  INFO 5348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:33:35.476  INFO 5348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:33:36.043  INFO 5348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:33:36.320  INFO 5348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:33:36.438  INFO 5348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:33:36.483  INFO 5348 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 6.339 seconds (JVM running for 6.968)
+2021-04-30 02:33:36.497  INFO 5348 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:33:42.641  INFO 5348 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:33:42.642  INFO 5348 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:33:42.643  INFO 5348 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 02:40:14.016  INFO 5660 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 5660 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:40:14.019  INFO 5660 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:40:14.090  INFO 5660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:40:14.090  INFO 5660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:40:14.878  INFO 5660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:40:14.900  INFO 5660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:40:15.721  INFO 5660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:40:15.741  INFO 5660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:40:15.742  INFO 5660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:40:15.830  INFO 5660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:40:15.831  INFO 5660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1740 ms
+2021-04-30 02:40:16.357  INFO 5660 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:40:16.868  INFO 5660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:40:18.095  INFO 5660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:40:18.403  INFO 5660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:40:18.493  INFO 5660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:40:18.519  INFO 5660 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 4.98 seconds (JVM running for 5.53)
+2021-04-30 02:40:18.530  INFO 5660 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:40:51.210  INFO 19008 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 19008 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:40:51.213  INFO 19008 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:40:51.284  INFO 19008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:40:51.285  INFO 19008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:40:52.096  INFO 19008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:40:52.116  INFO 19008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:40:53.084  INFO 19008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:40:53.111  INFO 19008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:40:53.112  INFO 19008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:40:53.292  INFO 19008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:40:53.293  INFO 19008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2008 ms
+2021-04-30 02:40:54.111  INFO 19008 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:40:54.723  INFO 19008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:40:55.387  INFO 19008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:40:55.503  INFO 19008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:40:55.560  INFO 19008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:40:55.577  INFO 19008 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 4.869 seconds (JVM running for 5.396)
+2021-04-30 02:40:55.584  INFO 19008 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:41:02.476  INFO 19008 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:41:02.477  INFO 19008 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:41:02.479  INFO 19008 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-30 02:43:13.812  INFO 12088 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 12088 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:43:13.815  INFO 12088 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:43:13.895  INFO 12088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:43:13.896  INFO 12088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:43:14.681  INFO 12088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:43:14.704  INFO 12088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:43:15.524  INFO 12088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:43:15.543  INFO 12088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:43:15.544  INFO 12088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:43:15.634  INFO 12088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:43:15.635  INFO 12088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1738 ms
+2021-04-30 02:43:16.052  INFO 12088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:43:16.417  INFO 12088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:43:17.322  INFO 12088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:43:17.557  INFO 12088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:43:17.650  INFO 12088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:43:17.680  INFO 12088 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 4.343 seconds (JVM running for 4.887)
+2021-04-30 02:43:17.691  INFO 12088 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:43:28.439  INFO 12088 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:43:28.440  INFO 12088 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:43:28.441  INFO 12088 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 02:49:09.888  INFO 1760 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 1760 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:49:09.893  INFO 1760 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:49:09.967  INFO 1760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:49:09.968  INFO 1760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:49:10.780  INFO 1760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:49:10.801  INFO 1760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:49:11.582  INFO 1760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:49:11.594  INFO 1760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:49:11.595  INFO 1760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:49:11.680  INFO 1760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:49:11.681  INFO 1760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1711 ms
+2021-04-30 02:49:12.068  INFO 1760 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:49:12.303  INFO 1760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:49:12.747  INFO 1760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:49:12.849  INFO 1760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:49:12.898  INFO 1760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:49:12.909  INFO 1760 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 3.531 seconds (JVM running for 4.054)
+2021-04-30 02:49:12.914  INFO 1760 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:49:18.355  INFO 1760 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:49:18.355  INFO 1760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:49:18.356  INFO 1760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-30 02:53:59.893  INFO 18756 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 18756 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:53:59.896  INFO 18756 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:53:59.967  INFO 18756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:53:59.968  INFO 18756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:54:00.731  INFO 18756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:54:00.758  INFO 18756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:54:01.599  INFO 18756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:54:01.613  INFO 18756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:54:01.614  INFO 18756 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:54:01.687  INFO 18756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:54:01.688  INFO 18756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1719 ms
+2021-04-30 02:54:02.114  INFO 18756 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:54:02.409  INFO 18756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:54:02.903  INFO 18756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:54:03.048  INFO 18756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:54:03.101  INFO 18756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:54:03.118  INFO 18756 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 3.716 seconds (JVM running for 4.245)
+2021-04-30 02:54:03.126  INFO 18756 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:54:07.023  INFO 18756 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:54:07.024  INFO 18756 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:54:07.025  INFO 18756 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 02:57:19.424  INFO 12620 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 12620 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 02:57:19.428  INFO 12620 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 02:57:19.499  INFO 12620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 02:57:19.500  INFO 12620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 02:57:20.255  INFO 12620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 02:57:20.274  INFO 12620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2021-04-30 02:57:21.068  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 02:57:21.080  INFO 12620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 02:57:21.080  INFO 12620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 02:57:21.154  INFO 12620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 02:57:21.155  INFO 12620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1655 ms
+2021-04-30 02:57:21.567  INFO 12620 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 02:57:21.813  INFO 12620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 02:57:22.230  INFO 12620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 02:57:22.333  INFO 12620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 02:57:22.388  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 02:57:22.403  INFO 12620 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 3.457 seconds (JVM running for 3.998)
+2021-04-30 02:57:22.412  INFO 12620 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 02:57:27.577  INFO 12620 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 02:57:27.578  INFO 12620 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 02:57:27.580  INFO 12620 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 05:58:48.227  WARN 12620 --- [course_platform housekeeper] com.zaxxer.hikari.pool.HikariPool        : course_platform - Thread starvation or clock leap detected (housekeeper delta=3h25s924ms885µs500ns).
+2021-04-30 12:41:48.731  WARN 12620 --- [course_platform housekeeper] com.zaxxer.hikari.pool.HikariPool        : course_platform - Thread starvation or clock leap detected (housekeeper delta=6h42m46s3ms929µs).
+2021-04-30 12:48:41.208  INFO 4472 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 4472 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 12:48:41.212  INFO 4472 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 12:48:41.319  INFO 4472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 12:48:41.320  INFO 4472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 12:48:42.441  INFO 4472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 12:48:42.469  INFO 4472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2021-04-30 12:48:43.886  INFO 4472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 12:48:43.927  INFO 4472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 12:48:43.928  INFO 4472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 12:48:44.096  INFO 4472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 12:48:44.097  INFO 4472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2776 ms
+2021-04-30 12:48:45.002  INFO 4472 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 12:48:45.473  INFO 4472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 12:48:47.902  INFO 4472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 12:48:48.179  INFO 4472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 12:48:48.328  INFO 4472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 12:48:48.357  INFO 4472 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 7.847 seconds (JVM running for 8.813)
+2021-04-30 12:48:48.364  INFO 4472 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 12:56:09.400  INFO 4472 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 12:56:09.404  INFO 4472 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 12:56:09.410  INFO 4472 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-04-30 13:44:12.372  INFO 14616 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 14616 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 13:44:12.375  INFO 14616 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 13:44:12.460  INFO 14616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 13:44:12.461  INFO 14616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 13:44:13.261  INFO 14616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 13:44:13.282  INFO 14616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-04-30 13:44:15.025  INFO 14616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 13:44:15.040  INFO 14616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 13:44:15.040  INFO 14616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 13:44:15.121  INFO 14616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 13:44:15.121  INFO 14616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2659 ms
+2021-04-30 13:44:15.473  INFO 14616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 13:44:15.697  INFO 14616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 13:44:18.641  INFO 14616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 13:44:18.858  INFO 14616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 13:44:19.607  INFO 14616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 13:44:19.628  INFO 14616 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 7.802 seconds (JVM running for 8.534)
+2021-04-30 13:44:19.633  INFO 14616 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 13:44:27.900  INFO 14616 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 13:44:27.901  INFO 14616 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 13:44:27.902  INFO 14616 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 13:47:28.028  INFO 8348 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 8348 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 13:47:28.035  INFO 8348 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 13:47:28.118  INFO 8348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 13:47:28.119  INFO 8348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 13:47:29.802  INFO 8348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 13:47:29.855  INFO 8348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 JDBC repository interfaces.
+2021-04-30 13:47:31.455  INFO 8348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 13:47:31.489  INFO 8348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 13:47:31.491  INFO 8348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 13:47:31.709  INFO 8348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 13:47:31.709  INFO 8348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3590 ms
+2021-04-30 13:47:32.158  INFO 8348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 13:47:32.435  INFO 8348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 13:47:32.935  INFO 8348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 13:47:33.057  INFO 8348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 13:47:33.209  INFO 8348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 13:47:33.226  INFO 8348 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 5.76 seconds (JVM running for 6.324)
+2021-04-30 13:47:33.234  INFO 8348 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 13:47:46.971  INFO 8348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 13:47:46.972  INFO 8348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 13:47:46.973  INFO 8348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 14:15:34.944  INFO 15672 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 15672 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 14:15:34.947  INFO 15672 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 14:15:35.023  INFO 15672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 14:15:35.024  INFO 15672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 14:15:36.220  INFO 15672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 14:15:36.243  INFO 15672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2021-04-30 14:15:37.879  INFO 15672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 14:15:37.898  INFO 15672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 14:15:37.899  INFO 15672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 14:15:37.992  INFO 15672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 14:15:37.992  INFO 15672 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2968 ms
+2021-04-30 14:15:38.453  INFO 15672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 14:15:38.718  INFO 15672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 14:15:40.441  INFO 15672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 14:15:40.572  INFO 15672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 14:15:40.619  INFO 15672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 14:15:40.633  INFO 15672 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 6.404 seconds (JVM running for 6.89)
+2021-04-30 14:15:40.637  INFO 15672 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 14:15:44.693  INFO 15672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 14:15:44.693  INFO 15672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 14:15:44.694  INFO 15672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 14:32:04.704  INFO 7456 --- [restartedMain] c.C.CandidatePlatformApplication         : Starting CandidatePlatformApplication using Java 16 on HarshilJ with PID 7456 (C:\Users\HarshilJ\Downloads\candidate-platform\target\classes started by HarshilJ in C:\Users\HarshilJ\Downloads\candidate-platform)
+2021-04-30 14:32:04.708  INFO 7456 --- [restartedMain] c.C.CandidatePlatformApplication         : No active profile set, falling back to default profiles: default
+2021-04-30 14:32:04.795  INFO 7456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 14:32:04.795  INFO 7456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 14:32:07.041  INFO 7456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-30 14:32:07.089  INFO 7456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2021-04-30 14:32:08.564  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 14:32:08.582  INFO 7456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 14:32:08.582  INFO 7456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 14:32:08.672  INFO 7456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 14:32:08.673  INFO 7456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3877 ms
+2021-04-30 14:32:09.060  INFO 7456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 14:32:09.314  INFO 7456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Starting...
+2021-04-30 14:32:12.374  INFO 7456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : course_platform - Start completed.
+2021-04-30 14:32:12.505  INFO 7456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 14:32:12.764  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 14:32:12.775  INFO 7456 --- [restartedMain] c.C.CandidatePlatformApplication         : Started CandidatePlatformApplication in 8.609 seconds (JVM running for 9.272)
+2021-04-30 14:32:12.780  INFO 7456 --- [restartedMain] c.C.CandidatePlatformApplication         : Server is Running Perfectly Fine!!!
+2021-04-30 14:32:27.978  INFO 7456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 14:32:27.978  INFO 7456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 14:32:27.979  INFO 7456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-30 14:32:28.087  INFO 7456 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:34:23.553  INFO 7456 --- [http-nio-8080-exec-7] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:35:56.721  INFO 7456 --- [http-nio-8080-exec-9] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:38:26.775  INFO 7456 --- [http-nio-8080-exec-2] c.C.Controllers.CandidateController      : Candidate Controller Called-- Add Candidate
+2021-04-30 14:38:29.048  INFO 7456 --- [http-nio-8080-exec-2] com.CandidateManagement.dao.logsJdbcDAO  : Inside add log
+2021-04-30 14:38:29.649  INFO 7456 --- [http-nio-8080-exec-4] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:38:51.724  INFO 7456 --- [http-nio-8080-exec-9] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:40:22.260  INFO 7456 --- [http-nio-8080-exec-1] c.C.Controllers.LogsController           : inside get all logs controller
+2021-04-30 14:40:22.263  INFO 7456 --- [http-nio-8080-exec-1] com.CandidateManagement.dao.logsJdbcDAO  : inside get all logs
+2021-04-30 14:40:48.116  INFO 7456 --- [http-nio-8080-exec-4] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:43:57.054  INFO 7456 --- [http-nio-8080-exec-6] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:44:40.203  INFO 7456 --- [http-nio-8080-exec-7] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:45:16.295  INFO 7456 --- [http-nio-8080-exec-8] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:45:21.869  INFO 7456 --- [http-nio-8080-exec-9] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:45:42.022  INFO 7456 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:45:53.862  INFO 7456 --- [http-nio-8080-exec-4] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 14:48:10.214  INFO 7456 --- [http-nio-8080-exec-5] c.C.Controllers.CandidateController      : Candidate Controller Called-- Update Candidate
+2021-04-30 14:48:10.663  INFO 7456 --- [http-nio-8080-exec-5] c.C.dao.candidateJdbcDAO                 : Course Updated
+2021-04-30 14:48:10.671  INFO 7456 --- [http-nio-8080-exec-5] com.CandidateManagement.dao.logsJdbcDAO  : Inside add log
+2021-04-30 14:48:11.419  INFO 7456 --- [http-nio-8080-exec-7] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:04:51.027  INFO 7456 --- [http-nio-8080-exec-9] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:05:18.131  INFO 7456 --- [http-nio-8080-exec-10] c.C.Controllers.LogsController           : inside get all logs controller
+2021-04-30 15:05:18.132  INFO 7456 --- [http-nio-8080-exec-10] com.CandidateManagement.dao.logsJdbcDAO  : inside get all logs
+2021-04-30 15:05:57.127  INFO 7456 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:05:58.996  INFO 7456 --- [http-nio-8080-exec-2] c.C.Controllers.LogsController           : inside get all logs controller
+2021-04-30 15:05:58.998  INFO 7456 --- [http-nio-8080-exec-2] com.CandidateManagement.dao.logsJdbcDAO  : inside get all logs
+2021-04-30 15:06:14.935  INFO 7456 --- [http-nio-8080-exec-4] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:06:51.638  INFO 7456 --- [http-nio-8080-exec-5] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:07:27.275  INFO 7456 --- [http-nio-8080-exec-8] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:07:51.648  INFO 7456 --- [http-nio-8080-exec-9] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:10:35.095  INFO 7456 --- [http-nio-8080-exec-2] c.C.Controllers.CandidateController      : Candidate Controller Called-- Add Candidate
+2021-04-30 15:10:35.383  INFO 7456 --- [http-nio-8080-exec-2] com.CandidateManagement.dao.logsJdbcDAO  : Inside add log
+2021-04-30 15:10:35.663  INFO 7456 --- [http-nio-8080-exec-4] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:10:45.866  INFO 7456 --- [http-nio-8080-exec-3] c.C.Controllers.LogsController           : inside get all logs controller
+2021-04-30 15:10:45.867  INFO 7456 --- [http-nio-8080-exec-3] com.CandidateManagement.dao.logsJdbcDAO  : inside get all logs
+2021-04-30 15:11:00.241  INFO 7456 --- [http-nio-8080-exec-6] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:11:18.651  INFO 7456 --- [http-nio-8080-exec-8] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:11:36.860  INFO 7456 --- [http-nio-8080-exec-10] c.C.Controllers.CandidateController      : Candidate Controller Called-- Update Candidate
+2021-04-30 15:11:37.131  INFO 7456 --- [http-nio-8080-exec-10] c.C.dao.candidateJdbcDAO                 : Course Updated
+2021-04-30 15:11:37.142  INFO 7456 --- [http-nio-8080-exec-10] com.CandidateManagement.dao.logsJdbcDAO  : Inside add log
+2021-04-30 15:11:37.349  INFO 7456 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:11:43.297  INFO 7456 --- [http-nio-8080-exec-2] c.C.Controllers.LogsController           : inside get all logs controller
+2021-04-30 15:11:43.298  INFO 7456 --- [http-nio-8080-exec-2] com.CandidateManagement.dao.logsJdbcDAO  : inside get all logs
+2021-04-30 15:12:01.639  INFO 7456 --- [http-nio-8080-exec-4] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:13:38.651  INFO 7456 --- [http-nio-8080-exec-8] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:13:48.510  INFO 7456 --- [http-nio-8080-exec-10] c.C.Controllers.CandidateController      : Candidate Controller Called-- Delete Candidate
+2021-04-30 15:13:48.613  INFO 7456 --- [http-nio-8080-exec-10] com.CandidateManagement.dao.logsJdbcDAO  : Inside add log
+2021-04-30 15:13:49.199  INFO 7456 --- [http-nio-8080-exec-1] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:13:54.072  INFO 7456 --- [http-nio-8080-exec-2] c.C.Controllers.LogsController           : inside get all logs controller
+2021-04-30 15:13:54.949  INFO 7456 --- [http-nio-8080-exec-2] com.CandidateManagement.dao.logsJdbcDAO  : inside get all logs
+2021-04-30 15:14:04.994  INFO 7456 --- [http-nio-8080-exec-4] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 15:53:46.246  INFO 7456 --- [http-nio-8080-exec-2] c.C.Controllers.CandidateController      : Candidate Controller Called-- GetAll
+2021-04-30 18:04:07.584  WARN 7456 --- [course_platform housekeeper] com.zaxxer.hikari.pool.HikariPool        : course_platform - Thread starvation or clock leap detected (housekeeper delta=1h5m52s682ms910µs699ns).

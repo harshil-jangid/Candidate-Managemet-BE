@@ -1,15 +1,16 @@
 package com.CandidateManagement.dao;
 
+import com.CandidateManagement.Exceptions.NoRecordFound;
 import com.CandidateManagement.models.Candidate;
 import java.util.List;
 
 public interface DAO<Candidate> {
 	
-	List<Candidate> getCandidates();
+	public List<Candidate> getCandidates() throws NoRecordFound;
 		
-	Candidate create(Candidate candidate);
+	public Candidate create(Candidate candidate);
 		
-	int updateCandidate(Candidate candidate, int id);
+	public int updateCandidate(Candidate candidate, int id);
 	
-	void delete(int id, String deletedById);
+	public void delete(int id, String deletedById);
 }

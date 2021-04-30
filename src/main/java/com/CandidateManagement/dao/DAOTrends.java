@@ -1,14 +1,16 @@
 package com.CandidateManagement.dao;
 
+import com.CandidateManagement.Exceptions.NoRecordFound;
 import com.CandidateManagement.models.Candidate;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 
 import java.util.*;
 
 public interface DAOTrends<Candidate> {
 	
-	public List<Map<String,String>> getCountLocation();	
+	public ArrayNode getCountLocation() throws NoRecordFound;	
 
-	public List<Map<String,String>> getCountSkills();	
+	public ArrayNode getCountSkills() throws NoRecordFound;	
 
 
 }

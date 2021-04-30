@@ -2,6 +2,7 @@ package com.CandidateManagement.dao;
 
 import org.springframework.stereotype.Component;
 
+import com.CandidateManagement.Exceptions.NoRecordFound;
 import com.CandidateManagement.RowMapper.logsRowMapper;
 import com.CandidateManagement.models.Logs;
 
@@ -9,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -39,15 +41,19 @@ public class logsJdbcDAO implements DAOLogs {
         String sql1="SELECT * FROM logs;";
         List<Logs> logs=jdbcTemplate.query(sql1,new logsRowMapper());
         log.setId(logs.get(logs.size() - 1).getId());
-        
         return log;
     }
 
     @Override
-    public List<Logs> getLogs() {
+    public List<Logs> getLogs() throws NoRecordFound {
         logger.info("inside get all logs");
-        String sql = "SELECT * from logs";
-        List<Logs> logs = jdbcTemplate.query(sql,new logsRowMapper());
+        String sql = "SELECT * from logs order by id DESC";
+        List<Logs> logs = new ArrayList<>();
+        try {
+			logs = jdbcTemplate.query(sql,new logsRowMapper());
+		}catch(Exception e) {
+			throw (NoRecordFound)e;
+		}
         return logs;
     }
 	

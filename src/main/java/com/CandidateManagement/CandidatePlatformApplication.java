@@ -1,7 +1,8 @@
 package com.CandidateManagement;
 
 import java.util.Arrays;
-import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -9,26 +10,20 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
-import com.CandidateManagement.dao.DAO;
-import com.CandidateManagement.models.Candidate;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 
 @SpringBootApplication
 public class CandidatePlatformApplication {
 
-	private static DAO<Candidate> dao;
-	
-	public CandidatePlatformApplication(DAO<Candidate> dao) {
-		this.dao = dao;
-	}
-	
+	private static final Logger logger = LoggerFactory.getLogger(CandidatePlatformApplication.class);
+
 	public static void main(String[] args) {
 		SpringApplication.run(CandidatePlatformApplication.class, args);
-		
-		
-		System.out.println("\nAll Candidates -------------------------------------\n");
-		List<Candidate> candidates = dao.getCandidates();
-		candidates.forEach(System.out::println);
-		
+		System.out.println("**************Server Running****************");
+        logger.info("Server is Running Perfectly Fine!!!");
+        
 	}
 	
 	@Bean
