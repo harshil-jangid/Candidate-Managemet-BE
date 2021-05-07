@@ -16,28 +16,28 @@ import java.util.List;
 
 @Component
 public class logsJdbcDAO implements DAOLogs {
-	
-	
-	private static final Logger logger = LoggerFactory.getLogger(logsJdbcDAO.class);
+
+
+    private static final Logger logger = LoggerFactory.getLogger(logsJdbcDAO.class);
 
     private JdbcTemplate jdbcTemplate;
-    
+
     public logsJdbcDAO(JdbcTemplate jdbcTemplate){
         this.jdbcTemplate = jdbcTemplate;
     }
 
     @Override
     public Logs addLog(Logs log) {
-    	
+
         logger.info("Inside add log");
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         Date date = new Date();
         System.out.println("date is"+formatter.format(date));
-        
+
         log.setTimeStamp(formatter.format(date));
         String sql = "INSERT into logs(action,email,candidateId,timeStamp,oldValue,newValue) VALUES (?,?,?,?,?,?)";
         int index = jdbcTemplate.update(sql, new Object[]{log.getAction(), log.getEmail(), log.getCandidateId(), log.getTimeStamp(), log.getOldValue(), log.getNewValue()});
-        
+
         String sql1="SELECT * FROM logs;";
         List<Logs> logs=jdbcTemplate.query(sql1,new logsRowMapper());
         log.setId(logs.get(logs.size() - 1).getId());
@@ -50,12 +50,12 @@ public class logsJdbcDAO implements DAOLogs {
         String sql = "SELECT * from logs order by id DESC";
         List<Logs> logs = new ArrayList<>();
         try {
-			logs = jdbcTemplate.query(sql,new logsRowMapper());
-		}catch(Exception e) {
-			throw (NoRecordFound)e;
-		}
+            logs = jdbcTemplate.query(sql,new logsRowMapper());
+        }catch(Exception e) {
+            throw (NoRecordFound)e;
+        }
         return logs;
     }
-	
+
 
 }

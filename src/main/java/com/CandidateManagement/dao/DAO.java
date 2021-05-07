@@ -12,5 +12,5 @@ public interface DAO<Candidate> {
 		
 	public int updateCandidate(Candidate candidate, int id);
 	
-	public void delete(int id, String deletedById);
+	public int delete(int id, String deletedById);
 }

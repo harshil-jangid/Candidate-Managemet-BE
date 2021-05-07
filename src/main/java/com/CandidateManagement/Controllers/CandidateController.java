@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.CandidateManagement.Exceptions.NoRecordFound;
@@ -28,7 +30,7 @@ public class CandidateController {
 	private static final Logger logger = LoggerFactory.getLogger(CandidateController.class);
 
     @GetMapping(path="/all")
-	public ResponseEntity<List<Candidate>> getAllCandidates(){
+	public ResponseEntity<List<Candidate>> getAllCandidates(@RequestHeader(value="Authorization", required=true)String token){
 		logger.info("Candidate Controller Called-- GetAll");
 		List<Candidate> candidates = null;
 		try {
@@ -40,28 +42,29 @@ public class CandidateController {
 		return new ResponseEntity<>(candidates, HttpStatus.OK);
 	}
     
-    @PostMapping("/add")
-	public ResponseEntity<Candidate> addCandidate(@RequestBody Candidate candidate){
+    @PostMapping(path="/add/{currentUser}", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Candidate> addCandidate(@RequestBody Candidate candidate, @PathVariable(value="currentUser") String currentUser,@RequestHeader(value="Authorization", required=true)String token){
 		logger.info("Candidate Controller Called-- Add Candidate");
+		candidate.setCreatedBy(currentUser);
+		candidate.setLastUpdatedBy(currentUser);
 		Candidate newCandidate = dao.create(candidate);
 		return new ResponseEntity<>(newCandidate,HttpStatus.CREATED);
 	}
     
-    @PutMapping("/update")
-    public ResponseEntity<Candidate> updateCandidate(@RequestBody Candidate candidate) {
+    @PutMapping(path="/update/{currentUser}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Candidate> updateCandidate(@RequestBody Candidate candidate,  @PathVariable(value="currentUser") String currentUser,@RequestHeader(value="Authorization", required=true)String token) {
 		logger.info("Candidate Controller Called-- Update Candidate");
-    	System.out.println("in update");
+		candidate.setLastUpdatedBy(currentUser);
         int index=dao.updateCandidate(candidate,candidate.getId());
-        if(index>0) {
-        	return new ResponseEntity<>(HttpStatus.OK);
-        }
-        return new ResponseEntity<>(HttpStatus.BAD_REQUEST);        
+        System.out.println(index);
+        return new ResponseEntity<>(HttpStatus.OK);
+
     }
     
     @DeleteMapping("/delete/{id}/{deletedById}")
     public ResponseEntity<?> deleteCandidate(@PathVariable(value="id") int id, @PathVariable(value="deletedById") String deletedById) {
 		logger.info("Candidate Controller Called-- Delete Candidate");
-        dao.delete(id,deletedById);
+        int index=dao.delete(id,deletedById);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }

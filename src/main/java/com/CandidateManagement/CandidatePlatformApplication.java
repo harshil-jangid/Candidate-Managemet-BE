@@ -23,7 +23,10 @@ public class CandidatePlatformApplication {
 		SpringApplication.run(CandidatePlatformApplication.class, args);
 		System.out.println("**************Server Running****************");
         logger.info("Server is Running Perfectly Fine!!!");
-        
+		String s="18-08-2012";
+        String str[] = s.split("-");
+		s=str[2];
+		System.out.println(s);
 	}
 	
 	@Bean
@@ -41,6 +44,7 @@ public class CandidatePlatformApplication {
 		urlBasedCorsConfigurationSource.registerCorsConfiguration("/**", corsConfiguration);
 		return new CorsFilter(urlBasedCorsConfigurationSource);
 	}
+
 	
 	
 

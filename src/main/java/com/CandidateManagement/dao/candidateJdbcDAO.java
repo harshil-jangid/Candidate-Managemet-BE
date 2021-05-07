@@ -45,7 +45,10 @@ public class candidateJdbcDAO implements DAO<Candidate>{
 	public Candidate create(Candidate candidate) {
 		
 		String sql  = "INSERT into candidate(id,name,email,jobTitle,phone,imageUrl,joiningDate,collegeName,joiningLocation,skill,description,createdBy,lastUpdatedBy) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?);";
-        int index = jdbcTemplate.update(sql, new Object[] {candidate.getId(),candidate.getName(),candidate.getEmail(),candidate.getJobTitle(),candidate.getPhone(),candidate.getImageUrl(),candidate.getJoiningDate(),candidate.getCollegeName(),candidate.getJoiningLocation(),candidate.getSkill(),candidate.getDescription(),candidate.getCreatedBy(),candidate.getLastUpdatedBy()});
+		String s= candidate.getJoiningDate();
+		String str[] = s.split("-");
+		candidate.setJoiningDate(str[0]);
+		int index = jdbcTemplate.update(sql, new Object[] {candidate.getId(),candidate.getName(),candidate.getEmail(),candidate.getJobTitle(),candidate.getPhone(),candidate.getImageUrl(),candidate.getJoiningDate(),candidate.getCollegeName(),candidate.getJoiningLocation(),candidate.getSkill(),candidate.getDescription(),candidate.getCreatedBy(),candidate.getLastUpdatedBy()});
         String sql1="SELECT * FROM candidate;";
         
         List<Candidate> candidates=jdbcTemplate.query(sql1,new candidateRowMapper());
@@ -90,7 +93,9 @@ public class candidateJdbcDAO implements DAO<Candidate>{
 	@Override
 	public int updateCandidate(Candidate candidate, int id) {
 		String sql = "UPDATE candidate set name=?,email=?,jobTitle=?,phone=?,imageUrl=?,joiningDate=?,collegeName=?,joiningLocation=?,skill=?,description=?,createdBy=?,lastUpdatedBy=? where id=?";
-		
+		String s= candidate.getJoiningDate();
+		String str[] = s.split("-");
+		candidate.setJoiningDate(str[0]);
 		Candidate old = null;
 		try {
 			old = returnOldValue(id);
@@ -127,7 +132,7 @@ public class candidateJdbcDAO implements DAO<Candidate>{
 	}
 
 	@Override
-	public void delete(int id, String deletedById) {
+	public int delete(int id, String deletedById) {
 		String sql = "DELETE FROM candidate WHERE id =?";
 		Candidate old = null;
 		try {
@@ -165,6 +170,7 @@ public class candidateJdbcDAO implements DAO<Candidate>{
         newLog.setNewValue(newValue);
         newLog.setAction("Deleted this Candidate");
         dao.addLog(newLog);
+        return index;
 	}
 	
 }
